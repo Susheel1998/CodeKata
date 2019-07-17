@@ -7,11 +7,11 @@ int n = in.nextInt();
 if(n%2 == 0) {
 System.out.println("Even");
 }
-else if(n%2 != 0) {
-System.out.println("Odd");
+else if(n%2 < 0) {
+System.out.println("Invalid");
 }
 else {
-System.out.println("Invalid");
+System.out.println("Odd");
 }
 }
 }
