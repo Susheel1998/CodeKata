@@ -1,7 +1,7 @@
-a=int(input())
-if (a%4==0):
-	if (a%100==0):
-		if (a%400==0):
+d=int(input())
+if (d%4==0):
+	if (d%100==0):
+		if (d%400==0):
 			print ("yes")
 		else:
 			print ("no")
